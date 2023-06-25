@@ -81,7 +81,7 @@ example of a query url: blogs?filtername=filtervalue&f2=fv2
 
 Refer below sample
 
- ![A Postman collection and request sample](assets/Postman-collection-sample.png)
+ ![A Postman collection and request sample]
 
 ## Response
 
