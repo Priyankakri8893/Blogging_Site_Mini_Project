@@ -1,6 +1,6 @@
-# Technetium
+# Blogging Site Mini Project
 
-Repository for backend cohort - Technetium
+The Blogging Site Mini Project is a web application that allows authors to create and publish blogs. Users can register as authors, create, edit, and delete blogs, as well as view published blogs. The project can be enhanced with authentication and authorization features for improved security.
 
 ## Blogging Site Mini Project Requirement
 
@@ -74,10 +74,9 @@ example of a query url: blogs?filtername=filtervalue&f2=fv2
 - In case of unauthorized access return an appropirate error message.
 
 ## Testing (Self-evaluation During Development)
-- To test these apis create a new collection in Postman named Project 1 Blogging 
+- To test these apis create a new collection in Postman 
 - Each api should have a new request in this collection
 - Each request in the collection should be rightly named. Eg Create author, Create blog, Get blogs etc
-- Each member of each team should have their tests in running state
 
 
 Refer below sample
@@ -237,5 +236,3 @@ Refer below sample
 }
 ```
 #### Refer https://jsonplaceholder.typicode.com/guide/ for some fake blogs data.
-
-#### Note: Create a group database and use the same database in connection string by replacing `groupXDatabase
