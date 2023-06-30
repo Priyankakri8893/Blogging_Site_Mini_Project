@@ -36,7 +36,7 @@ const createBlog = async (req, res) => {
         const author = await authorModel.findById({_id: authorId})
 
         if(!author){
-          return res.status(400)
+          return res.status(404)
           .send({status : false , message : "Author does not exist"})
         }
 
